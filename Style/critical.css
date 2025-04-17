@@ -1,0 +1,123 @@
+/* תפריט ניווט במצב רגיל (Desktop) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 4px;
+    font-family: Rubik Dirt;
+    max-height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
+
+/* עיצוב הקישורים */
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row-reverse;
+    /* מסדר את הקישורים מימין לשמאל */
+    margin-right: 8em;
+}
+
+.navbar ul li {
+    margin-right: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000000;
+    line-height: 2;
+    text-align: center;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0, 220, 244, 0.645);
+}
+
+.navbar ul li a:hover {
+    color: rgb(0, 183, 255);
+    box-shadow: 4px 4px rgba(0, 220, 244, 0.645);
+    background-color: rgba(255, 255, 255, 0.9);
+    /* הופך את התפריט למעט כהה יותר בעת ריחוף */
+}
+
+/* /* עיצוב הלוגו והשם */
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-container img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 2px 2px rgba(0, 220, 244, 0.65);
+    margin-right: 0.5em;
+}
+
+.logo-container span {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px rgba(0, 220, 244, 0.645);
+    margin-left: 0.5em;
+    text-decoration: none;
+}
+
+/*-------------------------------------------------------------------------- עיצוב החלק העליון של תיק העבודות */
+.portfolio-header {
+    background-color: #91ffed;
+    padding: 50px;
+    text-align: center;
+    background-image: url('../images/myimage2.jpg');
+    /* הוספת תמונת רקע */
+    background-size: 1920px 1020px;
+    /* התאמת גודל התמונה לאזור */
+    background-position: center;
+    /* ממקם את התמונה במרכז */
+    display: flex;
+}
+
+.portfolio-header h1 {
+    font-family: Rubik Dirt;
+    font-size: 5em;
+    color: #ffffff;
+    /* שינוי הצבע ללבן */
+    font-weight: bold;
+    margin-top: 25px;
+    background-color: rgba(0, 0, 0, 0.221);
+    /* רקע שקוף קל מאחורי הכותרת */
+    display: inline-block;
+    direction: rtl;
+    /* כיוון כללי מימין לשמאל */
+}
+
+.portfolio-header p {
+    font-family: Rubik Dirt;
+    font-size: 1.5em;
+    color: #ffffff;
+    /* שינוי הצבע ללבן */
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.262);
+    /* רקע שקוף מאחורי הפסקה */
+    padding: 10px;
+    border-radius: 2px;
+    /* פינות מעוגלות */
+    direction: rtl;
+    /* כיוון כללי מימין לשמאל */
+}
+
+.punchline {
+    font-size: 1.5em;
+    color: #000000;
+    /* צבע בולט עבור משפט המחץ */
+    font-weight: bold;
+    margin-bottom: 30px;
+    direction: rtl;
+    /* כיוון כללי מימין לשמאל */
+    text-align: center;
+    font-family: Rubik Dirt;
+}
