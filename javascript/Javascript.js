@@ -39,5 +39,17 @@ window.addEventListener("load", () => {
 });
 
 
+document.addEventListener("DOMContentLoaded", () => {
+    const menuToggle = document.getElementById("menu-toggle");
+    const menuIcon = document.querySelector(".menu-icon");
+
+    menuToggle.addEventListener("change", () => {
+        const expanded = menuToggle.checked;
+        menuIcon.setAttribute("aria-expanded", expanded);
+    });
+});
+
+
+
 
 

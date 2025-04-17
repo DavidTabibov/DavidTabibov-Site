@@ -32,6 +32,8 @@ body {
     transition: background-color 0.3s ease;
 }
 
+
+
 /* עיצוב הקישורים */
 .navbar ul {
     display: flex;
@@ -66,15 +68,15 @@ body {
 .logo-container {
     display: flex;
     align-items: center;
-
+    text-decoration: none;
 }
 
 .logo-container img {
     width: 45px;
     height: 45px;
-    border-radius: 100%;
-    margin-left: 16em;
-    box-shadow: 2px 2px rgba(0, 220, 244, 0.645);
+    border-radius: 50%;
+    box-shadow: 2px 2px rgba(0, 220, 244, 0.65);
+    margin-right: 0.5em;
 }
 
 .logo-container span {
@@ -500,9 +502,9 @@ body {
 
 .about-section p {
     font-family: Rubik Dirt;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #555;
-    max-width: 800px;
+    max-width: 650px;
     margin: auto;
     line-height: 1.6;
     direction: rtl;
@@ -1057,7 +1059,6 @@ body {
 
 /*---------------------------------------------- אזור צור קשר */
 .contact-section {
-    background-image: url('path_to_your_background_image.jpg');
     background-color: rgb(74, 74, 74);
     background-size: cover;
     background-position: center;

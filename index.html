@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ברוכים הבאים! תיק עבודות של דוד טביבוב</title>
-    <link rel="stylesheet" href="Style/preloader.css">
     <link rel="stylesheet" href="Style/Portfolio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="not-loaded">
@@ -19,20 +19,20 @@
     </div>
 
     <!-- תיבת סימון להפעלת התפריט (Mobile) -->
-    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true" />
 
     <!-- אייקון התפריט (Mobile) -->
-    <label for="menu-toggle" class="menu-icon">
+    <label for="menu-toggle" class="menu-icon" role="button" aria-label="Toggle navigation menu"
+        aria-controls="main-nav" aria-expanded="false">
         ☰
     </label>
 
     <!-- תפריט ניווט (Desktop) -->
-    <nav class="navbar">
-        <div class="logo-container">
-            <img src="./images/myselflogo.JPG" alt="My Logo">
-            <a href="#home">
-                <span>David Tabibov</span>
-            </a>
+    <nav id="main-nav" class="navbar" role="navigation" aria-label="Main navigation">
+        <a href="#home" class="logo-container">
+            <img src="./images/myselflogo.JPG" alt="Portrait logo of David Tabibov" width="45" height="45">
+            <span>David Tabibov</span>
+        </a>
         </div>
         <ul>
             <li><a class="home" href="#home">ראשי</a></li>
@@ -149,9 +149,12 @@
         <div class="container">
             <img src="./images/myselflogo.JPG" alt="תמונה אישית" class="about-image">
             <h2>קצת עלי</h2>
-            <p>"אני דוד טביבוב, מתכנת ומפתח אתרים Full Stack עם ידע מקצועי וניסיון בשילוב עיצוב חדשני עם פיתוח
-                פונקציונלי ברמה גבוהה.
-                אני שואף להביא רעיונות דיגיטליים למציאות תוך הקפדה על איכות הקוד והביצועים, ומאמין ביצירת חוויות משתמש
+            <p>"אני דוד טביבוב,
+                מתכנת ומפתח אתרים Full Stack
+                עם ידע מקצועי וניסיון בשילוב עיצוב חדשני עם פיתוח
+                פונקציונלי ברמה גבוהה. <br>
+                אני שואף להביא רעיונות דיגיטליים למציאות
+                תוך הקפדה על איכות הקוד והביצועים, ומאמין ביצירת חוויות משתמש
                 חלקות ואפקטיביות
                 שמותאמות לצרכים ולחזון של כל לקוח."</p>
             <a href="DavidTabibovResume.pdf" class="download-resume" target="_blank">הורד קורות חיים</a>
