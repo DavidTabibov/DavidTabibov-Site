@@ -886,7 +886,6 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px rgba(0, 255, 255, 0.514);
-
 }
 
 /* עיצוב שדות הטופס */
@@ -932,11 +931,15 @@ body {
 
 
 .contactimgaeBig>img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin-top: 4289px;
+    position: relative;
+    top: -180px;
+    /* מיקום התמונה לפי הצורך שלך */
+    bottom: 0px;
+    left: -450px;
+    right: 0px;
     width: 25%;
+    opacity: 1;
+    z-index: 100;
 }
 
 @media(max-width:1200px) {
@@ -974,46 +977,24 @@ body {
         text-align: right;
     }
 
-    .contactimgaeSmall {
-        margin-top: 0px;
-    }
-
-
-
-
     .contactimgaeBig {
         opacity: 0;
     }
 }
 
-@media (max-width: 768px) {
-    .contactimgaeSmall {
-        position: sticky;
-        top: 0px;
-        /* מיקום האלמנט לפי הצורך שלך */
-        margin-top: 15px;
-        width: 20%;
-        opacity: 1;
-        z-index: 100;
-    }
-}
-
 @media (max-width: 1200px) {
     .contactimgaeSmall {
-        position: sticky;
-        top: 0px;
+        position: relative;
+        top: -22px;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
         /* מיקום האלמנט לפי הצורך שלך */
-        margin-top: -25px;
-        width: 20%;
+        width: 5%;
         opacity: 1;
         z-index: 100;
     }
 }
-
-
-
-
-
 
 /* ------------------------------------footer אזור */
 
