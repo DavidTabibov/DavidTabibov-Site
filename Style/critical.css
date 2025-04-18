@@ -116,8 +116,10 @@
     /* רקע שקוף מאחורי הפסקה */
     padding: 10px;
     border-radius: 2px;
+    line-height: 1.6;
     /* פינות מעוגלות */
     direction: rtl;
+    text-align: center;
     /* כיוון כללי מימין לשמאל */
 }
 

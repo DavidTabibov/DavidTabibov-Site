@@ -268,26 +268,28 @@ body {
     font-family: Rubik Dirt;
     font-size: 2.5rem;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .about-section .about-image {
     width: 240px;
     height: 240px;
-    border-radius: 60vw;
-    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 24px;
 }
 
 .about-section p {
     font-family: Rubik Dirt;
-    font-size: 1.2em;
+    font-size: 1rem;
     color: #555;
     max-width: 650px;
     margin: auto;
     line-height: 1.6;
     direction: rtl;
     /* משנה את הכיוון הכללי של הפסקה לימין לשמאל */
-    text-align: right;
+    text-align: center;
     /* יישור טקסט לימין */
 }
 
@@ -334,15 +336,18 @@ body {
     font-size: 3rem;
     color: #333;
     margin: auto;
+
 }
 
 /* פסקה */
 .projects-section p {
     font-family: Rubik Dirt;
-    font-size: 1.2rem;
+    direction: rtl;
+    font-size: 1.1rem;
     color: #666;
     margin: 15px auto;
     max-width: 800px;
+    text-align: center;
 }
 
 /* רשת הפרויקטים */
