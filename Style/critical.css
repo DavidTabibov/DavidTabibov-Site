@@ -5,7 +5,7 @@
     align-items: center;
     background-color: rgba(255, 255, 255, 0.63);
     padding: 4px;
-    font-family: Rubik Dirt;
+    font-family: 'Montserrat', sans-serif;
     max-height: 100px;
     position: sticky;
     top: 0;
@@ -92,7 +92,7 @@
 }
 
 .portfolio-header h1 {
-    font-family: Rubik Dirt;
+    font-family: 'Poppins', sans-serif;
     font-size: 5em;
     color: #ffffff;
     /* שינוי הצבע ללבן */
@@ -106,13 +106,13 @@
 }
 
 .portfolio-header p {
-    font-family: Rubik Dirt;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     color: #ffffff;
     /* שינוי הצבע ללבן */
     max-width: 800px;
     margin: 20px auto;
-    background-color: rgba(0, 0, 0, 0.262);
+    background-color: rgba(0, 0, 0, 0.592);
     /* רקע שקוף מאחורי הפסקה */
     padding: 10px;
     border-radius: 2px;
@@ -125,14 +125,14 @@
 
 .punchline {
     font-size: 1.5em;
-    color: #000000;
+    color: #ffff;
     /* צבע בולט עבור משפט המחץ */
     font-weight: bold;
     margin-bottom: 30px;
     direction: rtl;
     /* כיוון כללי מימין לשמאל */
     text-align: center;
-    font-family: Rubik Dirt;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* עיצוב לפי גודל המסך */
